@@ -14,7 +14,6 @@
 <button onclick="location.href=window.location.href" type="button">
     Send
 </button>
-
 <script>
     const url = window.location.href;
     let url_parts = url.replace(/\/\s*$/, '').split('/');
@@ -25,6 +24,5 @@
     document.getElementById("username").innerHTML = url_parts[3];
     document.getElementById("amount").innerHTML = url_parts[4];
 </script>
-
 </body>
 </html>
